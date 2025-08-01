@@ -1,0 +1,1 @@
+<p>This is a project for the ESP32 in which the ESP connects to the computer instead of the power button and through the use of sinric pro it connects to the virtual assistant Alexa to allow the computer to be turned on </p>
