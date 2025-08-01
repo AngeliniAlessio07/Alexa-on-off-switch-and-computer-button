@@ -4,19 +4,19 @@
 #include <SinricProSwitch.h>
 
 // Configura le credenziali WiFi
-const char* ssid = "TIM-24453927";
-const char* password = "TsFEbGfsyszRS4N3dybGXAkK";
+const char* ssid = "WIFI-Name";
+const char* password = "WIFI-Password";
 
 // Credenziali Sinric Pro (da ottenere su sinric.pro)
-#define APP_KEY    "23407065-22fa-4fea-a875-d473b141f938"      // Da sinric.pro
-#define APP_SECRET "36947c30-3529-4698-a729-e18ce2fefbd6-887c47c4-5bab-440b-9c03-624c261e4133"   // Da sinric.pro
-#define DEVICE_ID_1 "6880ba57ddd2551252b7758b" // ID per Computer 1
-#define DEVICE_ID_2 "6880bb41678c5bc9ab2047f7" // ID per Reset Forzato
+#define APP_KEY    "APP_KEY"      // Da sinric.pro
+#define APP_SECRET "APP_SECRET"   // Da sinric.pro
+#define DEVICE_ID_1 "DEVICE_ID_1" // ID per Computer 1
+#define DEVICE_ID_2 "DEVICE_ID_2" // ID per Reset Forzato
 
 // Pin GPIO per controllo computer
 const int powerPin = 4;   // Pin per accensione computer
 const int resetPin = 4;   // Pin per reset forzato
-const int buttonPin = 2;  // Pin per pulsante fisico
+const int buttonPin = 15;  // Pin per pulsante fisico
 
 // Variabili per gestione pulsante
 bool lastButtonState = HIGH;
